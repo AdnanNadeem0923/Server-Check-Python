@@ -7,7 +7,7 @@ def email_alert(subject, body, to):
     msg.set_content(body)
 
     gmail_user = 'adnannadeem0923@gmail.com'
-    gmail_password = '***************'
+    gmail_password = 'Your Password here'
     msg['Subject'] = subject
     msg['From'] = "adnannadeem0923@gmail.com"
     msg['To'] = to
